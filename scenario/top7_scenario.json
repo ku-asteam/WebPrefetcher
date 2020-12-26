@@ -1,0 +1,85 @@
+{
+    "filter_negative": true,
+    "n_scenario": 5,
+    "scenarios": [
+        {
+            "answer_url": "https://www.daum.net/",
+            "correct": true,
+            "predict_urls": [
+                "https://www.daum.net/",
+                "https://nyaa.si/",
+                "https://www.naver.com/",
+                "https://twitter.com/",
+                "http://scieng.net/",
+                "https://dict.naver.com/search.nhn",
+                "https://www.facebook.com/"
+            ],
+            "t_predict": 1,
+            "t_prefetch": 19
+        },
+        {
+            "answer_url": "https://www.facebook.com/",
+            "correct": false,
+            "predict_urls": [
+                "http://cr2.shopping.naver.com/adcrNoti.nhn",
+                "http://www.11st.co.kr/product/SellerProductDetail.tmall",
+                "http://prod.danawa.com/info/",
+                "https://www.google.com/search",
+                "https://search.naver.com/search.naver",
+                "https://media.daum.net/society/",
+                "https://m.post.naver.com/viewer/postView.nhn"
+            ],
+            "t_predict": 2,
+            "t_prefetch": 3948
+        },
+        {
+            "answer_url": "https://www.daum.net/",
+            "correct": true,
+            "predict_urls": [
+                "https://www.daum.net/",
+                "https://twitter.com/",
+                "https://www.facebook.com/",
+                "http://scieng.net/",
+                "https://www.anissia.net/anitime/",
+                "https://www.google.com/search",
+                "https://mail.google.com/mail/u/0/"
+            ],
+            "t_predict": 1,
+            "t_prefetch": 15367
+        },
+        {
+            "answer_url": "https://www.facebook.com/",
+            "correct": true,
+            "predict_urls": [
+                "https://www.facebook.com/",
+                "https://www.daum.net/",
+                "https://www.google.com/search",
+                "https://www.anissia.net/anitime/",
+                "https://www.naver.com/",
+                "https://mail.google.com/mail/u/0/",
+                "https://twitter.com/"
+            ],
+            "t_predict": 1,
+            "t_prefetch": 2665
+        },
+        {
+            "answer_url": "https://www.daum.net/",
+            "correct": true,
+            "predict_urls": [
+                "https://www.daum.net/",
+                "https://www.google.com/search",
+                "http://www.yes24.com/Main/default.aspx",
+                "http://2cpu.co.kr/",
+                "https://www.naver.com/",
+                "https://media.daum.net/digital/",
+                "https://twitter.com/"
+            ],
+            "t_predict": 1,
+            "t_prefetch": 2414
+        }
+    ],
+    "test_f-measure": 0.8,
+    "test_precition": 0.8,
+    "test_recall": 0.8,
+    "top_k": 7
+}
